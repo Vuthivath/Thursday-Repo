@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", sans-serif;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: transparent;
+    position: relative;
+    z-index: 0;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(kb.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px);
+    transform: scale(1.1);
+    z-index: -1; 
+}
+.box-wrap{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 214, 131);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 30px 45px;
+}
+.box-wrap h1{
+    font-size: 20px;
+    text-align: center;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: black;
+    outline: rgb(255, 214, 131);
+    border: 1px solid rgb(255, 214, 131);
+    border-radius: 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 10px 45px 10px 20px;
+}
+input:hover{
+    transition: all;
+    border: 1px solid rgb(255, 214, 131);
+}
+.box-wrap .button{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(253, 253, 253);
+    border: 1.5px rgb(255, 214, 131) solid;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(255, 214, 131);
+    font-weight: 600;
+}
+.button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 214, 131);
+    text-decoration: none;
+}
+.ahaa{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+p a{
+    display: flex;
+    font-size: 12px;
+    color: black;
+    justify-content: center;
+    margin-top: -10px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

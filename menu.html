@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>THE MENU</title>
+        <link rel="stylesheet" href="menu.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="QUASO.png" height="190px" width="200px" />                    </a>
+                </li>
+                <li class="hideOnMobile"><a href="menu.html">Menu</a></li>
+                <li class="hideOnMobile"><a href="visit.html">Visit</a></li>
+                <li class="hideOnMobile"><a href="aboutUs.html">About Us</a></li>
+                <li class="hideOnMobile" >
+                    <a href="#" id="cart-icon">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M2.21 9.39c-.19.25-.25.57-.17.87l2.8 10.26c.24.87 1.03 1.47 1.93 1.47h10.47c.9 0 1.69-.61 1.93-1.47l2.8-10.26c.08-.3.02-.62-.17-.87a.99.99 0 0 0-.79-.39h-1.42l-3.71-6.5-1.74.99 3.15 5.5H6.72l3.15-5.5-1.74-.99L4.42 9H3a1 1 0 0 0-.79.39M17.24 20H6.76l-2.45-9h15.38z"></path>
+                            <path d="M9 13h2v5H9zM13 13h2v5h-2z"></path>
+                        </svg>
+                    </a>
+                <li class="hideOnMobile">
+                    <a href="account.html">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="16" 
+                            height="16" 
+                            fill="currentColor" 
+                            viewBox="0 0
+                            24 24" >
+                            <path
+                                d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5m0-8c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3M4 22h16c.55 0 1-.45 1-1v-1c0-3.86-3.14-7-7-7h-4c-3.86 0-7 3.14-7 7v1c0 .55.45 1 1 1m6-7h4c2.76 0 5 2.24 5 5H5c0-2.76 2.24-5 5-5"></path>
+                        </svg>
+                <li class="menu-button" onclick="showSidebar()">
+                    <a href="#">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24px"
+                            viewBox="0 -960 960 960"
+                            width="24px"
+                            fill="#000000">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="header">MENU CATEGORY</h1>
+        <div class="container">
+            <div class="slide-wrapper">
+                <h3>PASTRIES</h3>
+                <div class="pastries">
+                    <div class="pastries-container">
+                        <img src="Croissant.jpg" alt="" />
+                        <h4 class="title-prod">BERRIES CROISSANT</h4>
+                        <p class="price">$5.00</p>
+                        <button class="add-cart" type="button">Add to Cart</button>
+                    </div>
+                    <div class="pastries-container">
+                        <img src="Croissant.jpg" alt="" />
+                        <h4 class="title-prod">POWEDRED SUGAR CROISSANT</h4>
+                        <p class="price">$2.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="pastries-container">
+                        <img src="Apple-Pie.jpg" alt="" />
+                        <h4 class="title-prod">APPLE PIE</h4>
+                        <p class="price">$8.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="pastries-container">
+                        <img src="Donut.jpg" alt="" />
+                        <h4 class="title-prod">DONUT</h4>
+                        <p class="price">$2.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="pastries-container">
+                        <img src="Muffin.jpg" alt="" />
+                        <h4 class="title-prod">STRAWBERRY MUFFIN</h4>
+                        <p class="price">$5.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="pastries-container">
+                        <img src="Pretzel.jpg" alt="" />
+                        <h4>PRETZEL</h4>
+                        <p class="price">$4.50</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="pastries-container">
+                        <img src="Pancake.jpg" alt="" />
+                        <h4 class="title-prod">PANCAKE</h4>
+                        <p class="price">$6.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <h3>BREAD</h3>
+                <div class="bread">
+                    <div class="bread-container">
+                        <img src="Sourdough.jpg" alt="" />
+                        <h class="title-prod">SOURDOUGH SANDWICH</h>
+                        <p>$5.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="bread-container">
+                        <img src="Baguette.jpg" alt="" />
+                        <h4>BAGUETTE</h4>
+                        <p>$3.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="bread-container">
+                        <img src="Banana-Bread.jpg" alt="" />
+                        <h4>BANANA BREAD</h4>
+                        <p>$3.25</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="bread-container">
+                        <img src="White-Bread.jpg" alt="" />
+                        <h4>WHITE BREAD</h4>
+                        <p>$2.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <h3>DRINK</h3>
+                <div class="drink">
+                    <div class="drink-container">
+                        <img src="Lemonade.jpg" alt="" />
+                        <h4>LEMONADE</h4>
+                        <p>$5.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="drink-container">
+                        <img src="Iced-Coffee.jpg" alt="" />
+                        <h4>ICED COFFEE</h4>
+                        <p>$6.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="drink-container">
+                        <img src="Americano.jpg" alt="" />
+                        <h4>AMERICANO</h4>
+                        <p>$6.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="drink-container">
+                        <img src="Latte.jpg" alt="" />
+                        <h4>LATTE</h4>
+                        <p>$5.25</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+                <a href="Checkout.html" style="text-decoration: none;"><button class="btn">Buy Now</button></a>
+            <div id="cart-close">
+                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16"  
+                    fill="currentColor" viewBox="0 0 24 24" >
+                    <path d="m7.76 14.83-2.83 2.83 1.41 1.41 2.83-2.83 2.12-2.12.71-.71.71.71 1.41 1.42 3.54 3.53 1.41-1.41-3.53-3.54-1.42-1.41-.71-.71 5.66-5.66-1.41-1.41L12 10.59 6.34 4.93 4.93 6.34 10.59 12l-.71.71z"></path>
+                </svg>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="columns-1">
+                <h4>CONTACT US</h4>
+                <a href=""><p>123 Bakery St, Phnom Penh City, SC 12345</p></a>
+                <p>Phone: (855) 456-670-69</p>
+                <p>Email: QuasoBakebuns@gmail.com</p>
+            </div>
+            <div class="columns-2">
+                <h4>FOLLOW US</h4>
+                <a href="#"><p>Instagram: @Quaso</p></a>
+                <a href="#"><p>Facebook: Quaso Bakery & Cafe</p></a>
+                <a href="#"><p>Twitter: @Quaso</p></a>
+            </div>
+            <div class="columns-3">
+                <h4>OPENING HOURS</h4>
+                <p>Mon-Fri: 7:00 AM - 7:00 PM</p>
+                <p>Sat-Sun: 8:00 AM - 5:00 PM</p>
+            </div>
+        </footer>
+        <script src="menu.js"></script>
+    </body>
+</html>
